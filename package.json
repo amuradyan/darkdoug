@@ -1,0 +1,27 @@
+{
+    "name": "darkdoug",
+    "displayName": "Dark Doug",
+    "description": "A dark grayscale theme",
+    "version": "1.0.0",
+    "publisher": "darthspectrum",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amuradyan/darkdoug.git"
+    },
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Doug",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-doug-color-theme.json"
+            }
+        ]
+    }
+}
